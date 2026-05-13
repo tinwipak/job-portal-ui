@@ -171,6 +171,10 @@ const Footer = () => {
               >
                 <span className="relative z-10">About</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-64 bg-gray-800 border border-gray-700 rounded-lg p-3 text-xs text-gray-300 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50">
+                  Learn more about JobPortal — our mission, team, and commitment to connecting job seekers with their dream careers.
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-700"></div>
+                </div>
               </Link>
               <Link
                 to="/contact"
