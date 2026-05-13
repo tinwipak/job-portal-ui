@@ -20,6 +20,7 @@ import PostJob from "./pages/PostJob";
 import MyJobs from "./pages/MyJobs";
 import JobApplicants from "./pages/JobApplicants";
 import Profile from "./pages/Profile";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/admin/Dashboard";
 import CompanyManagement from "./pages/admin/CompanyManagement";
@@ -132,6 +133,9 @@ function App() {
                   {/* Auth Routes */}
                   <Route path="login" element={<Login />} />
                   <Route path="register" element={<Register />} />
+
+                  {/* About Route */}
+                  <Route path="about" element={<About />} />
 
                   {/* Contact Route */}
                   <Route path="contact" element={<Contact />} />
