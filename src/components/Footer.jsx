@@ -193,7 +193,7 @@ const Footer = () => {
                 © 2026 JobPortal. All rights reserved.
               </div>
               <div className="text-xs text-gray-500">
-                Made with ❤️ for job seekers worldwide
+                Made with ❤️ for job seekers worldwide X
               </div>
             </div>
           </div>
